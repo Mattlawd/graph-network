@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.graphNetwork.repository;
 
-import com.example.demo.model.nodes.VirtualMachine;
+import com.example.graphNetwork.model.nodes.VirtualMachine;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 
 public interface VirtualMachineRepository extends Neo4jRepository<VirtualMachine, Long> {

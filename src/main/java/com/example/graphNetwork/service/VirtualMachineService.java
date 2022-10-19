@@ -1,15 +1,12 @@
-package com.example.demo.service;
+package com.example.graphNetwork.service;
 
-import com.example.demo.model.nodes.VirtualMachine;
-import com.example.demo.model.utils.VMMetrics;
-import com.example.demo.model.utils.VMSpecs;
-import com.example.demo.repository.VirtualMachineRepository;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.beans.BeanUtils;
+import com.example.graphNetwork.model.nodes.VirtualMachine;
+import com.example.graphNetwork.model.utils.VMMetrics;
+import com.example.graphNetwork.model.utils.VMSpecs;
+import com.example.graphNetwork.repository.VirtualMachineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
 
 @Service

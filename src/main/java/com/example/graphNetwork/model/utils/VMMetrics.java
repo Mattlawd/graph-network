@@ -1,4 +1,4 @@
-package com.example.demo.model.utils;
+package com.example.graphNetwork.model.utils;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

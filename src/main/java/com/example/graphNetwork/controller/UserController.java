@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.graphNetwork.controller;
 
 
-import com.example.demo.model.nodes.User;
-import com.example.demo.service.UserService;
+import com.example.graphNetwork.model.nodes.User;
+import com.example.graphNetwork.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

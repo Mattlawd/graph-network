@@ -1,11 +1,11 @@
-package com.example.demo.service;
+package com.example.graphNetwork.service;
 
-import com.example.demo.model.edges.UserToVMRelationship;
-import com.example.demo.model.nodes.User;
-import com.example.demo.model.nodes.VirtualMachine;
-import com.example.demo.repository.NetworkInterfaceCardRepository;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.repository.VirtualMachineRepository;
+import com.example.graphNetwork.model.edges.UserToVMRelationship;
+import com.example.graphNetwork.model.nodes.User;
+import com.example.graphNetwork.model.nodes.VirtualMachine;
+import com.example.graphNetwork.repository.NetworkInterfaceCardRepository;
+import com.example.graphNetwork.repository.UserRepository;
+import com.example.graphNetwork.repository.VirtualMachineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

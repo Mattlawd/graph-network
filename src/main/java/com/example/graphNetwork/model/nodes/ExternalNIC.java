@@ -1,4 +1,4 @@
-package com.example.demo.model.nodes;
+package com.example.graphNetwork.model.nodes;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -7,8 +7,7 @@ import org.springframework.data.neo4j.core.schema.Node;
 @Data
 @Node
 @EqualsAndHashCode(callSuper = true)
-public class InternalNIC extends NIC {
+public class ExternalNIC extends NIC {
 
-    private String privateIp;
 
 }

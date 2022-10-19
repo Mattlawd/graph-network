@@ -1,7 +1,7 @@
-package com.example.demo.model.nodes;
-import com.example.demo.model.edges.Flow;
-import com.example.demo.model.edges.NICToVMRelationship;
-import com.example.demo.model.utils.TimeDetails;
+package com.example.graphNetwork.model.nodes;
+import com.example.graphNetwork.model.edges.Flow;
+import com.example.graphNetwork.model.edges.NICToVMRelationship;
+import com.example.graphNetwork.model.utils.TimeDetails;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.neo4j.core.schema.*;

@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.example.graphNetwork.controller;
 
-import com.example.demo.model.nodes.VirtualMachine;
-import com.example.demo.model.utils.VMMetrics;
-import com.example.demo.model.utils.VMSpecs;
-import com.example.demo.service.VirtualMachineService;
+import com.example.graphNetwork.model.nodes.VirtualMachine;
+import com.example.graphNetwork.model.utils.VMMetrics;
+import com.example.graphNetwork.model.utils.VMSpecs;
+import com.example.graphNetwork.service.VirtualMachineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

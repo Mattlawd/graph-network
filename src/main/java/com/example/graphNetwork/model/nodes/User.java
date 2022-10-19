@@ -1,6 +1,6 @@
-package com.example.demo.model.nodes;
+package com.example.graphNetwork.model.nodes;
 
-import com.example.demo.model.edges.UserToVMRelationship;
+import com.example.graphNetwork.model.edges.UserToVMRelationship;
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Id;

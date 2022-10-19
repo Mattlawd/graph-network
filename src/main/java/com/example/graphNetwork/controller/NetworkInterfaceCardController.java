@@ -1,11 +1,11 @@
-package com.example.demo.controller;
+package com.example.graphNetwork.controller;
 
 
-import com.example.demo.model.edges.Flow;
-import com.example.demo.model.nodes.ExternalNIC;
-import com.example.demo.model.nodes.InternalNIC;
-import com.example.demo.model.nodes.NIC;
-import com.example.demo.service.NetworkInterfaceCardService;
+import com.example.graphNetwork.model.edges.Flow;
+import com.example.graphNetwork.model.nodes.ExternalNIC;
+import com.example.graphNetwork.model.nodes.InternalNIC;
+import com.example.graphNetwork.model.nodes.NIC;
+import com.example.graphNetwork.service.NetworkInterfaceCardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

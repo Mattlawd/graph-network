@@ -1,7 +1,6 @@
-package com.example.demo.model.edges;
+package com.example.graphNetwork.model.edges;
 
-import com.example.demo.model.nodes.NIC;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.example.graphNetwork.model.nodes.NIC;
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.*;
 
