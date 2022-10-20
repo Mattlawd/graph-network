@@ -1,19 +1,16 @@
 package com.example.graphNetwork.model.edges;
 
 import com.example.graphNetwork.model.nodes.VirtualMachine;
+import com.example.graphNetwork.model.utils.TimeDetails;
 import lombok.Data;
-import org.springframework.data.neo4j.core.schema.GeneratedValue;
-import org.springframework.data.neo4j.core.schema.RelationshipId;
+import lombok.EqualsAndHashCode;
 import org.springframework.data.neo4j.core.schema.RelationshipProperties;
 import org.springframework.data.neo4j.core.schema.TargetNode;
 
 @RelationshipProperties
 @Data
-public class UserToVMRelationship {
-
-    @RelationshipId
-    @GeneratedValue
-    private Long userConnectionId;
+@EqualsAndHashCode(callSuper = true)
+public class UserToVMRelationship extends TimeDetails {
 
     @TargetNode
     private VirtualMachine virtualMachine;

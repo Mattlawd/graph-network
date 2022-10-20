@@ -1,16 +1,15 @@
 package com.example.graphNetwork.model.edges;
 
 import com.example.graphNetwork.model.nodes.NIC;
+import com.example.graphNetwork.model.utils.TimeDetails;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.springframework.data.neo4j.core.schema.*;
 
 @RelationshipProperties
 @Data
-public class Flow {
-
-    @RelationshipId
-    @GeneratedValue
-    private Long flowId;
+@EqualsAndHashCode(callSuper = true)
+public class Flow extends TimeDetails {
 
     private int sourcePort;
 
@@ -22,7 +21,5 @@ public class Flow {
 
     @TargetNode
     private NIC inboundNIC;
-
-
 
 }

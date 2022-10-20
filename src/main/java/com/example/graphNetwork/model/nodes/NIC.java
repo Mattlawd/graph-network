@@ -12,10 +12,6 @@ import java.util.List;
 @Node
 @EqualsAndHashCode(callSuper = true)
 public class NIC extends TimeDetails {
-//
-//    @Id
-//    @GeneratedValue
-//    private Long id;
 
     private String publicIp;
 

@@ -10,8 +10,9 @@ import org.springframework.data.neo4j.core.schema.TargetNode;
 @RelationshipProperties
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class NICToVMRelationship extends TimeDetails {
+public class VMMetricsToVMRelationship extends TimeDetails {
 
     @TargetNode
-    private VirtualMachine virtualMachine;
+    VirtualMachine virtualMachine;
+
 }

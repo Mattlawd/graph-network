@@ -3,8 +3,7 @@ package com.example.graphNetwork.model.utils;
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.GeneratedValue;
 import org.springframework.data.neo4j.core.schema.Id;
-
-import java.sql.Timestamp;
+import java.time.ZonedDateTime;
 
 @Data
 public abstract class TimeDetails {
@@ -12,7 +11,7 @@ public abstract class TimeDetails {
     @Id
     @GeneratedValue
     private Long id;
-    private Timestamp startDate;
-    private Timestamp endDate;
+    private ZonedDateTime startDate;
+    private ZonedDateTime endDate;
 
 }
